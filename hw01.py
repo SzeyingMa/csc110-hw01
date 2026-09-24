@@ -1,5 +1,5 @@
 # ------------------------------------------------------
-#        Name: (put your name here)
+#        Name: Stephanie Ma
 #       Peers: (add any collaborators)
 #  References: (anything you checked to solve this)
 # ------------------------------------------------------
@@ -45,13 +45,34 @@ def main():
     # Part 1: Basic Operations
     # =============================================
     # Your code for part 1 under this line and before the print statements
-
+    x = 27
+    y = 1
+    a = 1.5
+    b = 7
+    c = -1
+    Result1 = (3*x - 9*y**2) / (a*(b-c))
+    #print Results
+    print("Part 1: x =", x)
+    print("Part 1: y =", y)
+    print("Part 1: a =", a)
+    print("Part 1: b =", b)
+    print("Part 1: c =", c)
+    print("Part1: Result=",Result1)
+  
+ 
     # End of Part 1 ----------------------
 
 
     # Part 2: Power
     # =============================================
     # Your code for part 2 under this line and before the print statements
+    x = 5
+    y = -3
+    Result2 = x**2 * y**4
+    print("Part 2: x =", x)
+    print("Part 2: y =", y)
+    print("Part 2: Result =", Result2)
+
 
     # End of Part 2 ----------------------
 
@@ -60,6 +81,12 @@ def main():
     # Part 3: Integer divide
     # =============================================
     # Your code for part 3 under this line and before the print statements
+    a = 100
+    b = 13
+    Result3 = a // b
+    print("Part 3: a =", a)
+    print("Part 3: b =", b)
+    print("Part 3: Result =", Result3)
 
     # End of Part 3 ----------------------
 
@@ -67,6 +94,8 @@ def main():
     # Part 4: Modulo
     # =============================================
     # Your code for part 4 under this line and before the print statements
+    Result4 = a % b
+    print("Part 4: Result =", Result4)
 
     # End of Part 4 ----------------------
 
